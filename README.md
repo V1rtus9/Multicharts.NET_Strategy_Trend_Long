@@ -14,3 +14,7 @@ It's long-term strategy. Minimum period that I have tested is 5 years. Strategy 
  AMD
  
  ![amd](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/AMD.Multichars.NetPortfolio.png)
+ 
+ NVDA
+ 
+  ![nvda](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/NVDA.Multichars.NetPortfolio.png)
