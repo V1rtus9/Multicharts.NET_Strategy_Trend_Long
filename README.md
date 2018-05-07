@@ -1,0 +1,1 @@
+# Multicharts.NET_Strategy_Trend_Long
