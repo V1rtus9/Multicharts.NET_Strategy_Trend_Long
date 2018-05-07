@@ -38,7 +38,7 @@ namespace PowerLanguage.Function
 				m_body.Value = m_xaverage1[0];
 				
 				if (1 == Bars.CurrentBar)
-                    return Price[0];
+                  			  return Price[0];
 				return 2 * m_xaverage1[0] - m_xaverage2[0];
             }
         }
