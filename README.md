@@ -10,3 +10,7 @@ It's long-term strategy. Minimum period that I have tested is 5 years. Strategy 
 
 
  ![parameters](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/Multicharts.NetStartegy_Params.png)
+ 
+ AMD
+ 
+ ![amd](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/AMD.Multichars.NetPortfolio.png)
