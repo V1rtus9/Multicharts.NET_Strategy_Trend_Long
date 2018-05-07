@@ -18,3 +18,7 @@ It's long-term strategy. Minimum period that I have tested is 5 years. Strategy 
  NVDA
  
   ![nvda](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/NVDA.Multichars.NetPortfolio.png)
+  
+  GOOGL
+  
+   ![googl](https://github.com/V1rtus9/Multicharts.NET_Strategy_Trend_Long/blob/master/Screenshots/GOOGL.Multichars.NetPortfolio.png)
