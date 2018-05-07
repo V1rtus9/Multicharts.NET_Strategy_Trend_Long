@@ -1,1 +1,1 @@
-# Multicharts.NET_Strategy_Trend_Long
+# Multicharts.NET Strategy Weekly Dema Break
