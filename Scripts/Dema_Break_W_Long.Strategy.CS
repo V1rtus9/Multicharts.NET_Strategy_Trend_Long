@@ -8,7 +8,6 @@ using System.Collections.Generic;
 namespace PowerLanguage.Strategy {
 
 	public delegate void EMarketPositionChangeDelegate();
-	public delegate void EMarketPositionSideDelegate(double _ddema, double _wdema);
 
 	public class Dema_Break_W_Long : SignalObject {
 
