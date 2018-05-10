@@ -59,14 +59,10 @@ namespace PowerLanguage.Strategy {
 
 		private int InitialContractSizeDynamicValue;
 
-		private EMarketPositionSideDelegate EMarketPositionSideDelegateFlat;
-		private EMarketPositionSideDelegate EMarketPositionSideDelegateLong;
-		private EMarketPositionSideDelegate EMarketPositionSideDelegateShort;
-
 		private event EMarketPositionChangeDelegate EMarketPositionOpened;
 		private event EMarketPositionChangeDelegate EMarketPositionClosed;
 
-		private Dictionary<EMarketPositionSide, EMarketPositionSideDelegate> StrategyPositionStates;
+		private Dictionary<EMarketPositionSide, Action<double, double>> StrategyPositionStates;
 
 		protected override void Create() {
 			// create variable objects, function objects, order objects etc.
@@ -77,7 +73,7 @@ namespace PowerLanguage.Strategy {
 			SL1 = OrderCreator.Stop(new SOrderParameters(Contracts.UserSpecified, "SL1", EOrderAction.Sell, OrderExit.FromEntry(FE)));
 			TralingSL1 = OrderCreator.Stop(new SOrderParameters(Contracts.UserSpecified, "Trail1", EOrderAction.Sell, OrderExit.FromEntry(FE)));
 
-			StrategyPositionStates = new Dictionary<EMarketPositionSide, EMarketPositionSideDelegate>()
+			StrategyPositionStates = new Dictionary<EMarketPositionSide, Action<double, double>>()
 			{
 				{EMarketPositionSide.Flat, this.EMarketPositionSideFlat},
 				{EMarketPositionSide.Long, this.EMarketPositionSideLong},
